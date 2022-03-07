@@ -29,7 +29,7 @@ data/DATASET/
 └── mapping.json
 ```
 
-test.json is data file, and each line is a Dict. 
+test.json is data file, and each line is an Instance. 
 
 Instance format: Each instance is a Dict, containing `tokens` and `entity` fields, in which `tokens` is the list of tokens, and `entity` is the list of entity mentions.
 
@@ -51,7 +51,7 @@ test.json: each line is an instance.
 mapping.json: a Dict mapping, the key is label name, the value is mapping words for each label (is commonly label name ). 
 
 ### Pretrained SDNet
-The pretrained SDNet (sdnet.th) should be put in data folder `sdnetpretrain`
+The pretrained SDNet (sdnet.th) should be putted in folder `sdnetpretrain`
 
 You can download the pretrained SDNet in this [link](https://1drv.ms/u/s!Apx2f2KG2lXYglzYgrNd479FaoLS). 
 
