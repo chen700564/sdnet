@@ -1,6 +1,6 @@
 # SDNet
 
-- An implementation for ``Few-shot Named Entity Recognition with Self-describing Networks``
+- An implementation for ACL 2022 paper ``Few-shot Named Entity Recognition with Self-describing Networks``
 
 ## Quick links
 
@@ -19,7 +19,7 @@ bash env.sh
 
 ### Dataset
 
-Dataset is be putted in data folder:
+Dataset is in the data folder:
 
 ```text
 data/DATASET/
@@ -52,7 +52,7 @@ mapping.json: a Dict mapping, the key is label name, the value is mapping words 
 ### Pretrained SDNet
 The pretrained model should be put in path sdnetpretrain/
 
-You can download the pretrained file in this link: 
+You can download the pretrained file in this [link](https://1drv.ms/u/s!Apx2f2KG2lXYglzYgrNd479FaoLS). 
 
 ### Fewshot Fine-tuning
 
