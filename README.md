@@ -6,6 +6,7 @@
 
 * [Environment](#Environment)
 * [Dataset](#Dataset)
+* [Pretrained SDNet](#Pretrained-SDNet)
 * [Fewshot Fine-tuning](#Fewshot-Fine-tuning)
 * [Model Evaluation](#Model-Evaluation)
 
@@ -50,9 +51,9 @@ test.json: each line is an instance.
 mapping.json: a Dict mapping, the key is label name, the value is mapping words for each label (is commonly label name ). 
 
 ### Pretrained SDNet
-The pretrained model should be put in data folder `sdnetpretrain`
+The pretrained SDNet (sdnet.th) should be put in data folder `sdnetpretrain`
 
-You can download the pretrained file in this [link](https://1drv.ms/u/s!Apx2f2KG2lXYglzYgrNd479FaoLS). 
+You can download the pretrained SDNet in this [link](https://1drv.ms/u/s!Apx2f2KG2lXYglzYgrNd479FaoLS). 
 
 ### Fewshot Fine-tuning
 
