@@ -9,6 +9,7 @@
 * [Pretrained SDNet](#Pretrained-SDNet)
 * [Fewshot Fine-tuning](#Fewshot-Fine-tuning)
 * [Model Evaluation](#Model-Evaluation)
+* [License](#License)
 
 ### Environment
 
