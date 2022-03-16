@@ -9,7 +9,6 @@
 * [Pretrained SDNet](#Pretrained-SDNet)
 * [Fewshot Fine-tuning](#Fewshot-Fine-tuning)
 * [Model Evaluation](#Model-Evaluation)
-* [License](#License)
 
 ### Environment
 
@@ -80,5 +79,5 @@ just add -evalue:
 python main.py -dataset DATASET -K 5 -sdnet -cuda DEVICE -evalue
 ```
 
-### License
+## License
 The code is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License for Noncommercial use only. Any commercial use should get formal permission first.
