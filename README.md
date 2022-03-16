@@ -69,12 +69,15 @@ python main.py -dataset DATASET -K 5 -sdnet -cuda DEVICE
 + -full: if added, using the full training set to fine-tune
 + -cuda: is the GPU id
 
-The model checkpoint is saved in tmp/dataset/...
+The predicted result is saved in tmp/dataset/...
 
 ### Model Evaluation
 
 just add -evalue:
 
 ```bash
-python main.py -dataset DATASET -sdnet -K 5 -evalue
+python main.py -dataset DATASET -K 5 -sdnet -cuda DEVICE -evalue
 ```
+
+### License
+The code is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License for Noncommercial use only. Any commercial use should get formal permission first.
