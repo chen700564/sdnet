@@ -2,6 +2,9 @@
 
 - An implementation for ACL 2022 paper ``Few-shot Named Entity Recognition with Self-describing Networks``
 
+
+## Implementation
+
 ## Quick links
 
 * [Environment](#Environment)
@@ -9,8 +12,6 @@
 * [Pretrained SDNet](#Pretrained-SDNet)
 * [Fewshot Fine-tuning](#Fewshot-Fine-tuning)
 * [Model Evaluation](#Model-Evaluation)
-
-## Implementation
 
 ### Environment
 
@@ -31,9 +32,9 @@ data/DATASET/
 └── mapping.json
 ```
 
-test.json is data file, and each line is an Instance. 
++ test.json is data file, and each line is an Instance. 
 
-Instance format: Each instance is a Dict, containing `tokens` and `entity` fields, in which `tokens` is the list of tokens, and `entity` is the list of entity mentions.
+**Instance format**: Each instance is a Dict, containing `tokens` and `entity` fields, in which `tokens` is the list of tokens, and `entity` is the list of entity mentions.
 
 ```text
 {
@@ -47,10 +48,9 @@ Instance format: Each instance is a Dict, containing `tokens` and `entity` field
 },
 ```
 
-kshot.json: the data file for k-shot fine-tuning, each line is a Dict, containing `support` and `target_label` fields, in which `support` is the list of instances in support set, and `target_label` is the list of target novel entity types.
-full.json: the data file for full shot fine-tuning, each line is a Dict, containing `support` and `target_label` fields, in which `support` is the list of instances in support set (full trraining set), and `target_label` is the list of target novel entity types.
-test.json: each line is an instance.
-mapping.json: a Dict mapping, the key is label name, the value is mapping words for each label (is commonly label name ). 
++ kshot.json/full.json: the data file for k-shot fine-tuning, each line is a Dict, containing `support` and `target_label` fields, in which `support` is the list of instances in support set (full training set in full.json), and `target_label` is the list of target novel entity types.
+
++ mapping.json: a Dict mapping, the key is label name, the value is mapping words for each label (is commonly label name). 
 
 ### Pretrained SDNet
 The pretrained SDNet (sdnet.th) should be putted in folder `sdnetpretrain`
