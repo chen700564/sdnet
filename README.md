@@ -1,11 +1,11 @@
 # SDNet
 
-- An implementation for ACL 2022 paper ``Few-shot Named Entity Recognition with Self-describing Networks``
+- An implementation for ACL 2022 paper [Few-shot Named Entity Recognition with Self-describing Networks](https://arxiv.org/abs/2203.12252)
 
 
 ## Implementation
 
-## Quick links
+### Quick links
 
 * [Environment](#Environment)
 * [Dataset](#Dataset)
