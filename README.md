@@ -7,7 +7,7 @@
 ### Quick links
 
 * [Environment](#Environment)
-* [Dataset](#Pretrained-Data)
+* [Pretrained Data](#Pretrained-Data)
 * [Dataset](#Dataset)
 * [Pretrained SDNet](#Pretrained-SDNet)
 * [Fewshot Fine-tuning](#Fewshot-Fine-tuning)
