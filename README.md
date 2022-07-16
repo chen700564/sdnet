@@ -2,12 +2,12 @@
 
 - An implementation for ACL 2022 paper [Few-shot Named Entity Recognition with Self-describing Networks](https://arxiv.org/abs/2203.12252)
 
-
 ## Implementation
 
 ### Quick links
 
 * [Environment](#Environment)
+* [Dataset](#Pretrained-Data)
 * [Dataset](#Dataset)
 * [Pretrained SDNet](#Pretrained-SDNet)
 * [Fewshot Fine-tuning](#Fewshot-Fine-tuning)
@@ -20,6 +20,9 @@ conda create -n sdnet python=3.8.5
 conda activate sdnet
 bash env.sh
 ```
+
+### Pretrained Data
+Part of pretrianed data is in the pretrain_data folder, the file includes 200k instances.
 
 ### Dataset
 
@@ -53,6 +56,7 @@ data/DATASET/
 + mapping.json: a Dict mapping, the key is label name, the value is mapping words for each label (is commonly label name). 
 
 ### Pretrained SDNet
+
 The pretrained SDNet (sdnet.th) should be putted in folder `sdnetpretrain`
 
 You can download the pretrained SDNet in this [link](https://1drv.ms/u/s!Apx2f2KG2lXYglzYgrNd479FaoLS). 
@@ -82,8 +86,8 @@ python main.py -dataset DATASET -K 5 -sdnet -cuda DEVICE -evalue
 ```
 
 ## License
-The code is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License for Noncommercial use only. Any commercial use should get formal permission first.
 
+The code is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License for Noncommercial use only. Any commercial use should get formal permission first.
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
