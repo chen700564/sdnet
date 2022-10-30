@@ -59,7 +59,7 @@ data/DATASET/
 
 The pretrained SDNet (sdnet.th) should be putted in folder `sdnetpretrain`
 
-You can download the pretrained SDNet in this [link](https://1drv.ms/u/s!Apx2f2KG2lXYglzYgrNd479FaoLS). 
+You can download the pretrained SDNet in this [link](https://1drv.ms/u/s!Apx2f2KG2lXYglzYgrNd479FaoLS) or [line](https://drive.google.com/file/d/1vRQ-DP29x9m5MVc9Uh4J9ZVwA4drDsgK/view?usp=share_link). 
 
 ### Fewshot Fine-tuning
 
